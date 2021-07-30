@@ -16,7 +16,7 @@ import { Helmet } from 'react-helmet'
 import { useHourlyRateData } from '../../contexts/PairData'
 import { timeframeOptions } from '../../constants'
 import { PairState, usePair } from '../../data/Reserves'
-import ChartAnimationLogo from '../../assets/images/chartAnimation.gif'
+import ChartAnimationLogo from '../../assets/images/loading.png'
 import usePairs from '../../hooks/usePairs'
 import { CurrencySelect } from 'components'
 
