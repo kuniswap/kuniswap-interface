@@ -33,7 +33,7 @@ const getTokenLogoURL = (address: string, chainId: any) => {
 }
 
 const getKukuLogo = () => {
-    let imageURL = `https://raw.githubusercontent.com/KukuSwap-KCC/icons/main/token/kuku.png`
+    let imageURL = `https://raw.githubusercontent.com/Kuniswap/icons/main/token/kuni.png`
     return imageURL
 }
 
