@@ -43,7 +43,7 @@ export const exchange = new ApolloClient({
 
 export const kuniswap = new ApolloClient({
     link: createHttpLink({
-        uri: 'https://graph.kuniswap.io/subgraphs/name/kuniswap'
+        uri: 'https://graph.kukuswap.io/subgraphs/name/kuniswap'
     }),
     cache: new InMemoryCache()
 })
@@ -70,7 +70,7 @@ export const healthClient = new ApolloClient({
 
 export const blockClient = new ApolloClient({
     link: createHttpLink({
-        uri: 'https://graph.kuniswap.io/subgraphs/name/kcc-blocks'
+        uri: 'https://graph.kukuswap.io/subgraphs/name/kcc-blocks'
     }),
     cache: new InMemoryCache()
 })
