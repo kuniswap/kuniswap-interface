@@ -1,0 +1,18 @@
+[
+  {
+    "name": "WKCS Token",
+    "symbol": "WKCS",
+    "address": "0x4446Fc4eb47f2f6586f9fAAb68B3498F86C07521",
+    "chainId": 321,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Kuniswap/icons/main/token/wkcs.png"
+  },
+  {
+    "name": "Kuni",
+    "symbol": "KUNI",
+    "address": "0xAd4D2bd157039A25bCc519f9093BbEc6D8953183",
+    "chainId": 321,
+    "decimals": 18,
+    "logoURI": "https://raw.githubusercontent.com/Kunniswap/icons/main/token/kuku.png"
+  }
+]
