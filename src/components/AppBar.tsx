@@ -98,7 +98,7 @@ function AppBar(): JSX.Element {
                                                                 switch (chainId) {
                                                                     case ChainId.KCC:
                                                                         address =
-                                                                            '0x509195A9d762BC6F3282c874156bd2E45dE86a10'
+                                                                            '0xAd4D2bd157039A25bCc519f9093BbEc6D8953183'
                                                                         break
                                                                 }
                                                                 const params: any = {
@@ -108,7 +108,7 @@ function AppBar(): JSX.Element {
                                                                         symbol: 'KUNI',
                                                                         decimals: 18,
                                                                         image:
-                                                                            'https://raw.githubusercontent.com/KukuSwap-KCC/icons/main/token/kuku.png'
+                                                                            'https://raw.githubusercontent.com/Kuniswap/icons/main/token/kuni.png'
                                                                     }
                                                                 }
 
