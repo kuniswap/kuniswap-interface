@@ -1,5 +1,5 @@
 import { Contract } from '@ethersproject/contracts'
-import SUSHIROLL_ABI from '@kuniswap/core/abi/KuKuRoll.json'
+import SUSHIROLL_ABI from '@kukuswap/core/abi/KuKuRoll.json'
 import {
     BAR_ADDRESS,
     ChainId,
