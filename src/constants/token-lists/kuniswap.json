@@ -1,4 +1,16 @@
-[
+{
+  "name": "Kuniswap Default List",
+  "timestamp": "2021-05-06T00:00:00Z",
+  "version": {
+    "major": 3,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://kuniswap.com/kuniswaplogo.svg",
+  "keywords": ["kuniswap", "default"],
+  "tokens": [
+    
   {
     "name": "WKCS Token",
     "symbol": "WKCS",
@@ -15,4 +27,5 @@
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/Kunniswap/icons/main/token/kuku.png"
   }
-]
+  ]
+}
