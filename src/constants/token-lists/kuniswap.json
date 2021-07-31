@@ -18,14 +18,6 @@
     "chainId": 321,
     "decimals": 18,
     "logoURI": "https://raw.githubusercontent.com/Kuniswap/icons/main/token/wkcs.png"
-  },
-  {
-    "name": "Kuni",
-    "symbol": "KUNI",
-    "address": "0xAd4D2bd157039A25bCc519f9093BbEc6D8953183",
-    "chainId": 321,
-    "decimals": 18,
-    "logoURI": "https://raw.githubusercontent.com/Kuniswap/icons/main/token/kuni.png"
   }
   ]
 }
