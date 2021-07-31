@@ -174,20 +174,20 @@ export default function App() {
             chart.current.applyOptions({
                 crosshair: {
                     vertLine: {
-                        color: '#FFCE2B',
+                        color: '#39DDA6',
                         width: 0.5,
                         style: 1,
                         visible: true,
                         labelVisible: true,
-                        labelBackgroundColor: '#FFCE2B'
+                        labelBackgroundColor: '#39DDA6'
                     },
                     horzLine: {
-                        color: '#FFCE2B',
+                        color: '#39DDA6',
                         width: 0.5,
                         style: 0,
                         visible: true,
                         labelVisible: true,
-                        labelBackgroundColor: '#FFCE2B'
+                        labelBackgroundColor: '#39DDA6'
                     },
                     mode: 1
                 }
