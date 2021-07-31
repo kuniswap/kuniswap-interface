@@ -83,7 +83,31 @@ function AppBar(): JSX.Element {
                                     </div>
                                 </div>
 
-                                
+                                <div className="flex flex-row items-center justify-center w-full lg:w-auto p-4 fixed left-0 bottom-0 bg-dark-1000 lg:relative lg:p-0 lg:bg-transparent">
+                                    <div className="flex items-center justify-between sm:justify-end space-x-2 w-full">
+                                        
+
+                                        <div className="w-auto flex items-center rounded bg-dark-900 hover:bg-dark-800 p-0.5 whitespace-nowrap text-sm font-bold cursor-pointer select-none pointer-events-auto">
+                                            {account && chainId && userEthBalance && (
+                                                <>
+                                                    <div className="py-2 px-3 text-primary text-bold">
+                                                        {userEthBalance?.toSignificant(4)}{' '}
+                                                        {Currency.getNativeCurrencySymbol(chainId)}
+                                                    </div>
+                                                </>
+                                            )}
+                                            <Web3Status />
+                                        </div>
+                                        <LanguageSwitch />
+
+                                        {chainId &&
+                                            [ChainId.GÖRLI, ChainId.KOVAN, ChainId.RINKEBY, ChainId.ROPSTEN].includes(
+                                                chainId
+                                            ) && <Web3Faucet />}
+
+                                        <MoreMenu />
+                                    </div>
+                                </div>
                                 <div className="-mr-2 flex sm:hidden">
                                     {/* Mobile menu button */}
                                     <Disclosure.Button className="inline-flex items-center justify-center p-2 rounded-md text-primary hover:text-high-emphesis focus:outline-none">
